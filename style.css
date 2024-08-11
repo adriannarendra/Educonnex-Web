@@ -471,7 +471,7 @@ header a{
     padding: 1rem 0;
     display: none;
     overflow: hidden;
-    background-color: var(--netral-color-light);
+    background-color: var(--bg-color);
     border-radius: 0 0 0.2rem 0.2rem;
 }
 

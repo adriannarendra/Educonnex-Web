@@ -109,6 +109,12 @@ header{
     z-index: 1;
     top: 0;
     position: fixed;
+    transform: translateY(-100%);
+    transition: .6s;
+}
+
+header.revealed{
+    transform: translateY(0);
 }
 
 header :nth-child(1){
@@ -140,6 +146,10 @@ header a{
 
 
 /* header end */
+
+main{
+    padding-top: 0.5rem;
+}
 
 /* home start */
 .container{

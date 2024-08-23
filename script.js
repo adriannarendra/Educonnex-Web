@@ -21,4 +21,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('revealed');
+    } else {
+        navbar.classList.remove('revealed');
+    }
+});
+
 AOS.init();
